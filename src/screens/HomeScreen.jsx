@@ -6,6 +6,8 @@ import CalltoActionSection from './../components/homeComponents/CalltoActionSect
 import Footer from './../components/Footer';
 import ModalCart from "../components/utils/Cart/ModalCart";
 import Navigation from "./Navigation";
+import PartnersComponent from "../components/utils/Partners/PartnersComponent";
+import PreFooter from "./PreFooter";
 
 const HomeScreen = () => {
     window.scrollTo(0, 0);
@@ -19,6 +21,7 @@ const HomeScreen = () => {
             <ShopSection visible={modal} setVisible={setModal}/>
             <CalltoActionSection/>
             <ContactInfo/>
+            <PreFooter/>
             <Footer/>
         </div>
     );

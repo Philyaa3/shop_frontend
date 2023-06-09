@@ -931,6 +931,10 @@ textarea:focus {
   padding: 0;
   margin: 0;
 }
+.info_heading{
+  font-size: 18px;
+  font-weight: bold;
+}
 
 .nav-list {
   height: 330px;
@@ -963,6 +967,7 @@ textarea:focus {
 }
 
 .carousel {
+  height: 100%;
   padding: 10px;
   width: 80%;
 }
@@ -1016,6 +1021,9 @@ textarea:focus {
 }
 .dropdown-content li:hover {
  text-decoration: underline;
+}
+.info{
+  padding: 20px;
 }
 @media (max-width: 1820px) {
   .dropdown-content{

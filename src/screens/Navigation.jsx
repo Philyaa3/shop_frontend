@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom'
 import Banner from "./Banner";
 import {useState} from "react";
 import {hidden} from "caniuse-lite/data/features";
+import PartnersComponent from "../components/utils/Partners/PartnersComponent";
 
 
 const Navigation = () => {
