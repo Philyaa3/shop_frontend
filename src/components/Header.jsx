@@ -152,7 +152,7 @@ const Header = ({setVisible, cartEnable}) => {
                                                     украшения</Link>
                                                 </li>
                                             </ul>
-                                            <div className='display-flex flex-wrap gap-5 scroll'>
+                                            <div className='display-flex flex-wrap gap-5 subMenu_Wrapper scroll'>
                                                 <ul className='subMenu'>
                                                     <li>Косметика по догляду</li>
                                                     <li>Догляд за обличчям</li>

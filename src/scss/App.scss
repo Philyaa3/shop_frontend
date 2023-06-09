@@ -1062,9 +1062,20 @@ textarea:focus {
   }
 }
 @media (max-width: 1000px) {
+  .carousel{
+    width: 100%;
+  }
+  .mobileNonVisible{
+    display: none;
+  }
+  .nav-list{
+    flex: 1 1 auto;
+  }
+  .subMenu_Wrapper{
+    flex: 1 2 auto;
+  }
   .dropdown-content{
-    width: 800px;
-    left: 18px;
+    max-width: 585px;
   }
   .w-30{
     width: 100%;

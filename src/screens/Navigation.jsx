@@ -13,7 +13,7 @@ const Navigation = () => {
                     <div className='navigation border-success display-flex justify-content-start'>
                         <div className='display-flex'>
                             <div>
-                                <ul className='list-group border-0 rounded-0 nav-list'>
+                                <ul className='list-group border-0 rounded-0 nav-list mobileNonVisible'>
                                     <li className='list-group-item border-0'><Link to='/'>Красота и здоровье</Link></li>
                                     <li className='list-group-item border-0'><Link to='/'>Дом и сад</Link></li>
                                     <li className='list-group-item border-0'><Link to='/'>Одежда и обувь</Link></li>
