@@ -5,6 +5,7 @@ import ContactInfo from './../components/homeComponents/ContactInfo';
 import CalltoActionSection from './../components/homeComponents/CalltoActionSection';
 import Footer from './../components/Footer';
 import ModalCart from "../components/utils/Cart/ModalCart";
+import Navigation from "./Navigation";
 
 const HomeScreen = () => {
     window.scrollTo(0, 0);
@@ -14,6 +15,7 @@ const HomeScreen = () => {
     return (
         <div>
             <Header setVisible={setModal} cartEnable={true}/>
+            <Navigation/>
             <ShopSection visible={modal} setVisible={setModal}/>
             <CalltoActionSection/>
             <ContactInfo/>
